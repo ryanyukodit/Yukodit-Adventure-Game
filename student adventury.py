@@ -42,29 +42,18 @@ import sys, traceback #To use exit functions
 
 # pizza = {'Size': "large", 'Cheese': "Mozzarella", "Topping 1": "Pepperoni", "Price": 14.99}
 
-enemy_1 = {'Enemy': 'Goblin', 'HP': 20, 'AP' : 5, 'Level': 1}
-
-enemy_2 = {'Enemy': 'Wolf', 'HP': 25, 'AP': 5, 'Level': 1}
-
-enemy_3 = {'Enemy': 'Badger', 'HP': 15, 'AP': 7, 'Level': 1}
 
 # Now that we have experience with the dictionary data structure, lets create a dictionary for our character! First calculate their attack power by making it equal to their strength.Then calculate their health power by  multiplying their speed by 10.
-
-health_power = speed * 10
-attack_power = strength 
 
 
 # Now that we have those important properties, create a dictionary for your character using all the information that we know about them! The properties should be name, faction, character, health power, attack power, strength, speed, intelligence, and charisma.
 
-player_character = {'Name': name, 'Faction': faction, 'Class': character,'Weapon': weapon, 'AP': attack_power, 'HP': health_power, 'Strength': strength, 'Speed': speed, 'Intelligence': intelligence, 'Charisma': charisma}
 
 
 # Create a scenario where an enemy attacks your character!
 
-print("Your character is strolling through the forest with their", weapon, " in hand. When suddenly a ", enemy_1['Enemy'], " comes jumping from the bushes! A battle commences!")
 
 # The enemy should attack your character first, each time doing the amount of damage that is equal to their attack power. Each time they attack, your health power should go down by that amount. Then your character should attack, using the same scenario. Your attack power should lower that HP by that amount. The fight ends when either character has no more HP. 
 
     
   # Continue the story, creating more battles and situations for the character
-print(name, "continues exploring the forest, ready to take down whatever comes his way!")
